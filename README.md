@@ -1,6 +1,6 @@
 # Docker Rundeck + ELK stack
 
-Note: Inspired from https://github.com/deviantony/docker-elk
+Note: Forked from https://github.com/deviantony/docker-elk
 
 Run the latest version of the ELK (Rundeck, Elasticsearch, Logstash, Kibana) stack with Docker and Docker-compose.
 
