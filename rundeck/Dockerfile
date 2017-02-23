@@ -1,0 +1,1 @@
+FROM jordan/rundeck:latest

@@ -1,0 +1,255 @@
+- description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: INTERNETBANKING_XPTO_DATABASE_DEV
+  notification:
+    onfailure:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onstart:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onsuccess:
+      plugin:
+        configuration: {}
+        type: Logstash
+  options:
+  - name: ACTION
+    required: true
+    value: database
+  - name: COMPONENT
+    required: true
+    value: xpto
+  - name: ENV
+    required: true
+    value: development
+  - name: PRODUCT
+    required: true
+    value: internet banking
+  - name: SYSTEM
+    required: true
+    value: sigla_y
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 1
+    keepgoing: false
+    strategy: node-first
+
+
+- description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: INTERNETBANKING_XPTO_DEPLOY_DEV
+  notification:
+    onfailure:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onstart:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onsuccess:
+      plugin:
+        configuration: {}
+        type: Logstash
+  options:
+  - name: ACTION
+    required: true
+    value: deploy
+  - name: COMPONENT
+    required: true
+    value: xpto
+  - name: ENV
+    required: true
+    value: development
+  - name: PRODUCT
+    required: true
+    value: internet banking
+  - name: SYSTEM
+    required: true
+    value: sigla_y
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 1
+    keepgoing: false
+    strategy: node-first
+
+
+
+
+
+
+
+- description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: INTERNETBANKING_XPTO_DATABASE_HOM
+  notification:
+    onfailure:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onstart:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onsuccess:
+      plugin:
+        configuration: {}
+        type: Logstash
+  options:
+  - name: ACTION
+    required: true
+    value: database
+  - name: COMPONENT
+    required: true
+    value: xpto
+  - name: ENV
+    required: true
+    value: stage
+  - name: PRODUCT
+    required: true
+    value: internet banking
+  - name: SYSTEM
+    required: true
+    value: sigla_y
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 1
+    keepgoing: false
+    strategy: node-first
+
+
+- description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: INTERNETBANKING_XPTO_DEPLOY_HOM
+  notification:
+    onfailure:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onstart:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onsuccess:
+      plugin:
+        configuration: {}
+        type: Logstash
+  options:
+  - name: ACTION
+    required: true
+    value: deploy
+  - name: COMPONENT
+    required: true
+    value: xpto
+  - name: ENV
+    required: true
+    value: stage
+  - name: PRODUCT
+    required: true
+    value: internet banking
+  - name: SYSTEM
+    required: true
+    value: sigla_y
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 1
+    keepgoing: false
+    strategy: node-first
+
+
+
+
+
+
+
+
+- description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: INTERNETBANKING_XPTO_DATABASE_PRD
+  notification:
+    onfailure:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onstart:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onsuccess:
+      plugin:
+        configuration: {}
+        type: Logstash
+  options:
+  - name: ACTION
+    required: true
+    value: database
+  - name: COMPONENT
+    required: true
+    value: xpto
+  - name: ENV
+    required: true
+    value: production
+  - name: PRODUCT
+    required: true
+    value: internet banking
+  - name: SYSTEM
+    required: true
+    value: sigla_y
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 1
+    keepgoing: false
+    strategy: node-first
+
+
+- description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: INTERNETBANKING_XPTO_DEPLOY_PRD
+  notification:
+    onfailure:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onstart:
+      plugin:
+        configuration: {}
+        type: Logstash
+    onsuccess:
+      plugin:
+        configuration: {}
+        type: Logstash
+  options:
+  - name: ACTION
+    required: true
+    value: deploy
+  - name: COMPONENT
+    required: true
+    value: xpto
+  - name: ENV
+    required: true
+    value: production
+  - name: PRODUCT
+    required: true
+    value: internet banking
+  - name: SYSTEM
+    required: true
+    value: sigla_y
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 1
+    keepgoing: false
+    strategy: node-first
