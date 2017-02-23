@@ -1,13 +1,14 @@
-# Docker ELK stack
+# Docker Rundeck + ELK stack
 
-[![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Note: Inspired from https://github.com/deviantony/docker-elk
 
-Run the latest version of the ELK (Elasticsearch, Logstash, Kibana) stack with Docker and Docker-compose.
+Run the latest version of the ELK (Rundeck, Elasticsearch, Logstash, Kibana) stack with Docker and Docker-compose.
 
-It will give you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and the visualization power of Kibana.
+It will give you the ability to analyze any data from Rundeck set by using the searching/aggregation capabilities of Elasticsearch and the visualization power of Kibana.
 
-Based on the official images:
+Based on the images:
 
+* [rundeck](https://hub.docker.com/r/jordan/rundeck/)
 * [elasticsearch](https://registry.hub.docker.com/_/elasticsearch/)
 * [logstash](https://registry.hub.docker.com/_/logstash/)
 * [kibana](https://registry.hub.docker.com/_/kibana/)
@@ -46,7 +47,7 @@ For example on Redhat and CentOS, the following will apply the proper context:
 
 # Usage
 
-Start the ELK stack using *docker-compose*:
+Start the Rundeck + ELK stack using *docker-compose*:
 
 ```bash
 $ docker-compose up
