@@ -46,7 +46,7 @@ services:
     build: rundeck/
     volumes:
       - ./rundeck/plugins/:/opt/rundeck-plugins
-      - ./rundeck/config/:/etc/rundeck/
+      # - ./rundeck/config/framework.properties/:/etc/rundeck/framework.properties
     ports:
       - 4440:4440
     environment:
